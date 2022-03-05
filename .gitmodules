@@ -1,0 +1,3 @@
+[submodule "initial-template"]
+	path = initial-template
+	url = git@github.com:ErickWendel/semanajsexpert-spotify-template.git
