@@ -12,7 +12,7 @@ Marque esse projeto com uma estrela 🌟
 
 - Web API
     - [ ] Deve atingir 100% de cobertura de código em testes
-    - [ ] Deve ter testes de integração validando todas as rotas da API
+    - [ ] Deve ter testes end to end validando todas as rotas da API
     - [ ] Deve entregar arquivos estáticos como Node.js Stream
     - [ ] Deve entregar arquivos de música como Node.js Stream
     - [ ] Dado um usuário desconectado, não deve quebrar a API
