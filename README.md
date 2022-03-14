@@ -44,7 +44,7 @@ Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-dis
 ### Considerações
 - Tire suas dúvidas sobre os desafios em nossa comunidade, o objetivo é você aprender de forma divertida. Surgiu dúvidas? Pergunte por lá!
 
-- Ao completar qualquer um dos desafios, envie no canal **#desafios** da comunidade no **Discord**
+- Ao completar qualquer um dos desafios, envie no canal **#desafios** da comunidade no [**Discord**](https://bit.ly/semanajsexpert-discord)
 
 ### Créditos aos áudios usados
 
