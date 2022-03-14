@@ -4,7 +4,7 @@ Seja bem vindo(a) à sexta Semana Javascript Expert. Este é o código inicial p
 
 Marque esse projeto com uma estrela 🌟
 
-Acesse a [**comunidade exclusiva no discord**](https://bit.ly/discord-semanajsexpert) para tirar suas dúvidas e conhecer pessoas: 
+Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-discord) para tirar suas dúvidas e conhecer pessoas: 
 ## Preview
 
 <img src="./prints/demo.png" />
