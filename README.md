@@ -17,7 +17,7 @@ Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-dis
     - [ ] Deve entregar arquivos estáticos como Node.js Stream
     - [ ] Deve entregar arquivos de música como Node.js Stream
     - [ ] Dado um usuário desconectado, não deve quebrar a API
-    - [ ] Mesmo que vários comandos sejam desparados ao mesmo tempo, não deve quebrar a API
+    - [ ] Mesmo que vários comandos sejam disparados ao mesmo tempo, não deve quebrar a API
     - [ ] Caso aconteça um erro inesperado, a API deve continuar funcionando
     - [ ] O projeto precisa ser executado em ambientes Linux, Mac e Windows
 
