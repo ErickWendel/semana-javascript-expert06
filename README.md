@@ -68,3 +68,6 @@ Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-dis
 
 - `jest.spyOn` - quando tentamos usar o `function.name` (algo como `stream.pipe.name`), ele diz que a instancia é undefined
     - Neste caso, use o valor como string: `jest.spyOn(stream, "pipe").mockReturnValue`
+- Desafio 01 impossível de completar 100% de code coverage pois o [testUtil.js](./aulas/aula01/tests/unit/_util/testUtil.js) não está sendo completamente usado
+    -  Adicione na primeira linha do arquivo [testUtil.js](./aulas/aula01/tests/unit/_util/testUtil.js) o seguinte trecho de código: `/* istanbul ignore file */` . Isso fará com que o jest ignore esse arquivo e complete os 100%. 
+    -  Importante: essa  alteração, servirá apenas para completar esse primeiro e/ou segundo desafio, na ultima aula, não vamos precisar ignorar esse arquivo uma vez que vamos usar todas as funções
