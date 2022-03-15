@@ -4,7 +4,6 @@ Seja bem vindo(a) à sexta Semana Javascript Expert. Este é o código inicial p
 
 Marque esse projeto com uma estrela 🌟
 
-Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-discord) para tirar suas dúvidas e conhecer pessoas: 
 ## Preview
 
 <img src="./prints/demo.png" />
@@ -13,12 +12,12 @@ Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-dis
 
 - Web API
     - [ ] Deve atingir 100% de cobertura de código em testes
-    - [ ] Deve ter testes end to end validando todas as rotas da API
-    - [ ] Deve entregar arquivos estáticos como Node.js Stream
+    - [ ] Deve ter testes de integração validando todas as rotas da API
+    - [x] Deve entregar arquivos estáticos como Node.js Stream
     - [ ] Deve entregar arquivos de música como Node.js Stream
     - [ ] Dado um usuário desconectado, não deve quebrar a API
-    - [ ] Mesmo que vários comandos sejam disparados ao mesmo tempo, não deve quebrar a API
-    - [ ] Caso aconteça um erro inesperado, a API deve continuar funcionando
+    - [ ] Mesmo que vários comandos sejam desparados ao mesmo tempo, não deve quebrar a API
+    - [x] Caso aconteça um erro inesperado, a API deve continuar funcionando
     - [ ] O projeto precisa ser executado em ambientes Linux, Mac e Windows
 
 - Web App 
@@ -35,17 +34,12 @@ Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-dis
 - Aula 01: Cobrir as camadas service e route com testes unitários e alcançar 100% de code coverage
 - Aula 02: Manter 100% de code coverage e implementar testes e2e para toda a API
 - Aula 03: implementar testes unitários para o frontend e manter 100% de code coverage
-- **PLUS**: 
-    - [ ] disponibilizar um novo efeito
-        - [ ] adicionar um botão novo no controlador
-        - [ ] adicionar um som de efeito novo para a pasta `audios/fx/`
-        - [ ] republicar no heroku
-## Código fonte das aulas e resolução de desafios
-- [Aula01](./aulas/aula01/)
+- Aula 04: implementar testes e2e na API e manter 100% de code coverage
+
 ### Considerações
 - Tire suas dúvidas sobre os desafios em nossa comunidade, o objetivo é você aprender de forma divertida. Surgiu dúvidas? Pergunte por lá!
 
-- Ao completar qualquer um dos desafios, envie no canal **#desafios** da comunidade no [**Discord**](https://bit.ly/semanajsexpert-discord)
+- Ao completar qualquer um dos desafios, envie no canal **#desafios** da comunidade no **Discord**
 
 ### Créditos aos áudios usados
 
@@ -65,6 +59,3 @@ Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-dis
 
 - Rodei `npm test` mas nada acontece, o que fazer?
     - Verifique a versão do seu Node.js. Estamos usando na versão 17. Entre no [site do node.js](https://nodejs.org) e baixe a versão mais recente.
-
-- `jest.spyOn` - quando tentamos usar o `function.name` (algo como `stream.pipe.name`), ele diz que a instancia é undefined
-    - Neste caso, use o valor como string: `jest.spyOn(stream, "pipe").mockReturnValue`
