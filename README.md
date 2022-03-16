@@ -42,6 +42,7 @@ Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-dis
         - [ ] republicar no heroku
 ## Código fonte das aulas e resolução de desafios
 - [Aula01](./aulas/aula01/)
+    - [desafio resolvido](./aulas/aula01-desafio-resolvido) e [pägina com code coverage em 100%](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula01-desafio-resolvido/coverage/lcov-report/index.html)
 ### Considerações
 - Tire suas dúvidas sobre os desafios em nossa comunidade, o objetivo é você aprender de forma divertida. Surgiu dúvidas? Pergunte por lá!
 
