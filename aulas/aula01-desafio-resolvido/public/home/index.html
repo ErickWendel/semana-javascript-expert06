@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify Radio - SemanaJSExpert 6.0</title>
+  <link rel="stylesheet" href="./home/css/reset.css" />
+  <link rel="stylesheet" href="./home/css/styles.css" />
+  <link rel="shortcut icon" type="image/png" href="./home/assets/spotify-favicon.png" />
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main class="container">
+    <aside class="container__sidebar hide">
+      <div class="container__sidebar__brand">
+        <img class="sidebar__brand" src="./home/assets/spotify.png" alt="spotify" />
+        <h1>spotify</h1>
+      </div>
+
+      <nav>
+        <ul class="sidebar__navbar__links">
+          <li class="sidebar__navbar__link">
+            <i class="fas fa-home"></i>
+            home
+          </li>
+          <li class="sidebar__navbar__link">
+            <i class="fas fa-search"></i>
+            search
+          </li>
+          <li class="sidebar__navbar__link">
+            <i class="fas fa-book"></i>
+            your library
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <section class="container__section">
+      <div class="container__section__actions-bar">
+        <div>
+          <div class="container__sidebar__brand hide-dektop">
+            <img class="sidebar__brand" src="./home/assets/spotify.png" alt="spotify" />
+            <h1>spotify</h1>
+          </div>
+          <i class="fas fa-chevron-left container__section__arrow hide"></i>
+          <i class="fas fa-chevron-right container__section__arrow hide"></i>
+        </div>
+        <div class="container__section__user">
+          <img src="./home/assets/user-eg.jpg" alt="user" />
+          Erick Wendel
+        </div>
+      </div>
+
+      <div class="container__section__radio-header">
+        <div class="container__section__radio-header__image">
+          <img src="./home/assets/cover.png" alt="javascript thumb" />
+        </div>
+        <div class="container__section__radio-header__infos">
+          <p>radio</p>
+          <h1>JS Expert Week 6.0</h1>
+          <h3 class="hide">with Erick Wendel</h3>
+        </div>
+      </div>
+
+      <div class="container__section__cards">
+        <div class="container__section__cards__actions-btn">
+          <p>follow</p>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+
+        <div class="container__section__content">
+          <div class="container__section__content__cards">
+            <h3>all episodes</h3>
+
+            <div class="container__section__content__cards__divider"></div>
+            <div class="container__section__content__cards__card">
+              <div class="change-side">
+                <div class="container__section__content__cards__image">
+                  <img src="./home/assets/cover.png" alt="javascript thumb" />
+                </div>
+                <h4 class="hide-dektop">Node.js audio processing</h4>
+              </div>
+              <div>
+                <h4 class="hide">Node.js audio processing</h4>
+                <p>
+                  Using Node.js in practice without frameworks, with cornflakes, chocolate and mustard
+                </p>
+                <div class="container__section__content__cards__player">
+                  <button type="button">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <p> March 17 • Live </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="container__section__content__cards__divider"></div>
+            <div class="container__section__content__cards__card">
+              <div class="change-side">
+                <div class="container__section__content__cards__image">
+                  <img src="./home/assets/nodejs-2.png" alt="nodejs thumb" />
+                </div>
+                <h4 class="hide-dektop">Node.js Wizards</h4>
+              </div>
+              <div>
+                <h4 class="hide">Node.js Wizards how they live and what spells they use</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  delectus commodi fugiat in necessitatibus rem ab veritatis
+                  atque tempore!
+                </p>
+                <div class="container__section__content__cards__player">
+                  <button type="button">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <p>March 17 • 46 min 27 sec</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container__section__content__cards">
+            <h3 class="hide">about</h3>
+            <p>
+              SemanaJSExpert, the best opportunity to learn advanced JavaScript </p>
+            <p class="tags">Best Programming Language</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="player">
+    <div class="player__song">
+      <div class="player__song__image">
+        <img src="./home/assets/cover.png" alt="thumb" />
+      </div>
+      <div>
+        <p>Node.js audio processing</p>
+        <p>Erick Wendel</p>
+      </div>
+      <i class="fas fa-heart hide"></i>
+    </div>
+
+    <div class="audio-player">
+      <audio id="audio" preload="none" controls autoplay src="./home/../home/../home/audio/songs/conversation.mp3"></audio>
+
+      <div class="player-controls">
+        <div class="player__actions">
+          <button id="previousAudio" class="hide"></button>
+          <button id="playAudio"></button>
+          <button id="nextAudio" class="hide"></button>
+        </div>
+        <div class="player-controls-row hide">
+          <p id="currentTime">00:00</p>
+          <div id="seekObjContainer">
+            <div id="seekObj">
+              <div id="percentage"></div>
+            </div>
+          </div>
+          <p id="duration">00:00</p>
+        </div>
+      </div>
+    </div>
+    <div class="hide"></div>
+  </div>
+  <div class="device-bar hide">
+    <i class="fas fa-volume-up"></i>
+    <p>Listening on Erick Wendel</p>
+  </div>
+  <script src="./home/js/animation.js"></script>
+</body>
+
+</html>
