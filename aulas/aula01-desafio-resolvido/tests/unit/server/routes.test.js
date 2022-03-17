@@ -163,13 +163,15 @@ describe('#Routes - test site for api response', () => {
 
   describe('exceptions', () => {
     test('given inexistent file it should respond with 404', async () => {
+      const error = new Error('Error: ENOENT: no such file or directy')
+      error.code = 'ENOENT'
       const params = TestUtil.defaultHandleParams()
       params.request.method = 'GET'
       params.request.url = '/index.png'
       jest.spyOn(
         Controller.prototype,
         Controller.prototype.getFileStream.name,
-      ).mockRejectedValue(new Error('Error: ENOENT: no such file or directy'))
+      ).mockRejectedValue(error)
 
       await handler(...params.values())
 
