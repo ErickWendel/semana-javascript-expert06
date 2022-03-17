@@ -14,8 +14,8 @@ Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-dis
 - Web API
     - [ ] Deve atingir 100% de cobertura de código em testes
     - [ ] Deve ter testes end to end validando todas as rotas da API
-    - [ ] Deve entregar arquivos estáticos como Node.js Stream
-    - [ ] Deve entregar arquivos de música como Node.js Stream
+    - [ ] Deve entregar arquivos estáticos com o Node.js Stream
+    - [ ] Deve entregar arquivos de música com o Node.js Stream
     - [ ] Dado um usuário desconectado, não deve quebrar a API
     - [ ] Mesmo que vários comandos sejam disparados ao mesmo tempo, não deve quebrar a API
     - [ ] Caso aconteça um erro inesperado, a API deve continuar funcionando
