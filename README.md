@@ -45,6 +45,8 @@ Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-dis
     - [desafio resolvido](./aulas/aula01-desafio-resolvido) e [página com code coverage em 100%](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula01-desafio-resolvido/coverage/lcov-report/index.html)
 - [Aula02](./aulas/aula02/)
     - [desafio resolvido](./aulas/aula02-desafio-resolvido) e [página com code coverage em 100%](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula02-desafio-resolvido/coverage/lcov-report/index.html)
+- [Aula03](./aulas/aula03/)
+    - [desafio resolvido](./aulas/aula03-desafio-resolvido) e [página com code coverage em 100%](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula03-desafio-resolvido/coverage/lcov-report/index.html)
 ### Considerações
 - Tire suas dúvidas sobre os desafios em nossa comunidade, o objetivo é você aprender de forma divertida. Surgiu dúvidas? Pergunte por lá!
 

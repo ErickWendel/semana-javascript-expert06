@@ -1,0 +1,84 @@
+
+html, body {
+  display: grid;
+  place-items: center center;
+  background: #daf7de;
+  font-family: 'Permanent Marker', cursive;
+  min-height: 100vh;
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  margin: 2rem auto;
+  max-height: 150px;
+}
+
+button {
+  cursor: pointer;
+  background: #00ff00e8;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.3rem;
+  transition: all 250ms;
+  box-shadow: 1px 1px 0px #0e3c17,
+              1px 2px 0px #0e3c17,
+              1px 3px 0px #0e3c17,
+              1px 4px 0px #0e3c17,
+              1px 5px 0px #0e3c17,
+              1px 6px 0px #0e3c17,
+              1px 7px 0px #0e3c17;
+}
+
+button.active {
+  background: yellow;
+  box-shadow: none;
+  top: 2.5px;
+  position: relative;
+}
+
+#start {
+  background: rgb(213, 242, 108);
+}
+
+#stop {
+  background: rgb(242, 144, 108);
+}
+
+.hidden {
+  display: none;
+}
+
+button.unassigned {
+  background: #0f5e2a;
+}
+
+section {
+  position: relative;
+  box-shadow: 0 5px 35px rgb(9, 22, 29);
+  background: rgb(9, 22, 29);
+  height: 300px;
+  width: 650px;
+  padding: 7rem 4rem 4rem 4rem;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  border-radius: 15px;
+}
+
+section::after {
+    background-image: url(https://www.elgato.com/sites/default/files/2018-10/product_logo_streamdeck.png);
+    content: "";
+    display: block;
+    position: absolute;
+    left: 24%;
+    top: 7.5px;
+    margin: 0 auto;
+    height: 82px;
+    width: 393px;
+    transform: scale(0.8)
+}

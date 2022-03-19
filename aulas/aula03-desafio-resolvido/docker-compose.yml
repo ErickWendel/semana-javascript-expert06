@@ -1,0 +1,53 @@
+version: '2.1'
+services: 
+  live-reload:
+    image: spotify-radio
+    build: .
+    environment:
+      PORT: 3000
+    command: 
+      - npm
+      - run
+      - live-reload
+    volumes:
+      - .:/spotify-radio
+      - node_modules:/spotify-radio/node_modules
+    ports:
+      - 3000:3000
+
+  test:
+    image: spotify-radio
+    build: .
+    command: 
+      - npm
+      - run
+      - test
+    volumes:
+      - .:/spotify-radio
+      - node_modules:/spotify-radio/node_modules
+
+  test-watch:
+    image: spotify-radio
+    build: .
+    command: 
+      - npm
+      - run
+      - test:watch
+    volumes:
+      - .:/spotify-radio
+      - node_modules:/spotify-radio/node_modules
+
+  test-coverage:
+    image: spotify-radio
+    build: .
+    command: 
+      - npm
+      - run
+      - test:coverage
+    volumes:
+      - .:/spotify-radio
+      - node_modules:/spotify-radio/node_modules
+
+volumes:
+  node_modules: {}
+    
