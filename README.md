@@ -1,10 +1,9 @@
-# Spotify Radio - Semana JS Expert 6.0
+# Spotify Radio - JS Expert Week 6.0
 
-Seja bem vindo(a) à sexta Semana Javascript Expert. Este é o código inicial para iniciar nossa jornada.
+Welcome to the sixth Javascript Expert Week. This is the starting code to start our journey.
 
-Marque esse projeto com uma estrela 🌟
+Tag this project with a star 🌟
 
-Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-discord) para tirar suas dúvidas e conhecer pessoas: 
 ## Preview
 
 <img src="./prints/demo.png" />
@@ -12,67 +11,63 @@ Acesse a [**comunidade exclusiva no discord**](https://bit.ly/semanajsexpert-dis
 ## Checklist Features
 
 - Web API
-    - [ ] Deve atingir 100% de cobertura de código em testes
-    - [ ] Deve ter testes end to end validando todas as rotas da API
-    - [ ] Deve entregar arquivos estáticos como Node.js Stream
-    - [ ] Deve entregar arquivos de música como Node.js Stream
-    - [ ] Dado um usuário desconectado, não deve quebrar a API
-    - [ ] Mesmo que vários comandos sejam disparados ao mesmo tempo, não deve quebrar a API
-    - [ ] Caso aconteça um erro inesperado, a API deve continuar funcionando
-    - [ ] O projeto precisa ser executado em ambientes Linux, Mac e Windows
+    - [ ] Must achieve 100% code coverage in tests
+    - [ ] Must have end to end tests validating all API routes
+    - [ ] Must deliver static files as Node.js Streams
+    - [ ] Must deliver music files as a Node.js Stream
+    - [ ] Given a disconnected user it should not break the API
+    - [ ] Even if multiple commands are fired at the same time, it should not break the API
+    - [ ] If an unexpected error occurs, the API should keep working
+    - [ ] The project needs to run on Linux, Mac and Windows environments
 
-- Web App 
+- Web App
     - Client
-        - [ ] Deve reproduzir a transmissão
-        - [ ] Não deve pausar se algum efeito for adicionado
+        - [ ] Must play the broadcast
+        - [ ] Shouldn't pause if any effects are added
     - Controller
-        - [ ] Deve atingir 100% de cobertura de código em testes
-        - [ ] Deve poder iniciar ou parar uma transmissão 
-        - [ ] Deve enviar comandos para adicionar audio efeitos à uma transmissão
+        - [ ] Must achieve 100% code coverage in tests
+        - [ ] Must be able to start or stop a broadcast
+        - [ ] Must send commands to add audio effects to a stream
 
-## Tarefas por aula
+## Tasks per class
 
-- Aula 01: Cobrir as camadas service e route com testes unitários e alcançar 100% de code coverage
-- Aula 02: Manter 100% de code coverage e implementar testes e2e para toda a API
-- Aula 03: implementar testes unitários para o frontend e manter 100% de code coverage
-- **PLUS**: 
-    - [ ] disponibilizar um novo efeito
-        - [ ] adicionar um botão novo no controlador
-        - [ ] adicionar um som de efeito novo para a pasta `audios/fx/`
-        - [ ] republicar no heroku
-## Código fonte das aulas e resolução de desafios
-- [Aula01](./aulas/aula01/)
-    - [desafio resolvido](./aulas/aula01-desafio-resolvido) e [página com code coverage em 100%](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula01-desafio-resolvido/coverage/lcov-report/index.html)
-- [Aula02](./aulas/aula02/)
-    - [desafio resolvido](./aulas/aula02-desafio-resolvido) e [página com code coverage em 100%](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula02-desafio-resolvido/coverage/lcov-report/index.html)
-- [Aula03](./aulas/aula03/)
-    - [desafio resolvido](./aulas/aula03-desafio-resolvido) e [página com code coverage em 100%](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula03-desafio-resolvido/coverage/lcov-report/index.html)
-### Considerações
-- Tire suas dúvidas sobre os desafios em nossa comunidade, o objetivo é você aprender de forma divertida. Surgiu dúvidas? Pergunte por lá!
+- Lesson 01: Cover service and route layers with unit tests and achieve 100% code coverage
+- Lesson 02: Maintain 100% code coverage and implement e2e tests for the entire API
+- Lesson 03: implement unit tests for the frontend and maintain 100% code coverage
+- **PLUS**:
+    - [ ] provide a new effect
+        - [ ] add a new button on the controller
+        - [ ] add a new effect sound to the `audios/fx/` folder
+        - [ ] repost on heroku
+## Source code for classes and solving challenges
+- [Class01](./classes/class01/)
+    - [desafio-resolvido](./aulas/aula01-desafio-resolvido) and [page with 100% code coverage](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula01-desafio-resolvido /coverage/lcov-report/index.html)
+- [Class02](./classes/class02/)
+    - [desafio-resolvido](./aulas/aula02-desafio-resolvido) and [page with 100% code coverage](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula02-desafio-resolvido /coverage/lcov-report/index.html)
+- [Class03](./classes/class03/)
+    - [desafio-resolvido](./aulas/aula03-desafio-resolvido) and [page with 100% code coverage](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula03-desafio-resolvido /coverage/lcov-report/index.html)
 
-- Ao completar qualquer um dos desafios, envie no canal **#desafios** da comunidade no [**Discord**](https://bit.ly/semanajsexpert-discord)
+### Credits to the sources I've used on the demos
 
-### Créditos aos áudios usados
-
-#### Transmissão 
+#### Streaming
 - [English Conversation](https://youtu.be/ytmMipczEI8)
 
-#### Efeitos
+#### Effects
 - [Applause](https://youtu.be/mMn_aYpzpG0)
 - [Applause Audience](https://youtu.be/3IC76o_lhFw)
 - [Boo](https://youtu.be/rYAQN11a2Dc)
 - [Fart](https://youtu.be/4PnUfYhbDDM)
 - [Laugh](https://youtu.be/TZ90IUrMNCo)
-## FAQ 
-- `NODE_OPTIONS` não é um comando reconhecido pelo sistema, o que fazer?
-    - Se você estiver no Windows, a forma de criar variáveis de ambiente é diferente. Você deve usar a palavra `set` antes do comando. 
-    - Ex: `    "test": "set NODE_OPTIONS=--experimental-vm-modules && npx jest --runInBand",`
+## FAQ
+- `NODE_OPTIONS` is not a system recognized command, what to do?
+    - If you are on Windows, the way to create environment variables is different. You must use the word `set` before the command.
+    - Ex: ` "test": "set NODE_OPTIONS=--experimental-vm-modules && npx jest --runInBand",`
 
-- Rodei `npm test` mas nada acontece, o que fazer?
-    - Verifique a versão do seu Node.js. Estamos usando na versão 17. Entre no [site do node.js](https://nodejs.org) e baixe a versão mais recente.
+- I ran `npm test` but nothing happens, what to do?
+    - Check your Node.js version. We are using version 17. Go to [node.js website](https://nodejs.org) and download the latest version.
 
-- `jest.spyOn` - quando tentamos usar o `function.name` (algo como `stream.pipe.name`), ele diz que a instancia é undefined
-    - Neste caso, use o valor como string: `jest.spyOn(stream, "pipe").mockReturnValue`
-- Desafio 01 impossível de completar 100% de code coverage pois o [testUtil.js](./aulas/aula01/tests/unit/_util/testUtil.js) não está sendo completamente usado
-    -  Adicione na primeira linha do arquivo [testUtil.js](./aulas/aula01/tests/unit/_util/testUtil.js) o seguinte trecho de código: `/* istanbul ignore file */` . Isso fará com que o jest ignore esse arquivo e complete os 100%. 
-    -  Importante: essa  alteração, servirá apenas para completar esse primeiro e/ou segundo desafio, na ultima aula, não vamos precisar ignorar esse arquivo uma vez que vamos usar todas as funções
+- `jest.spyOn` - when we try to use `function.name` (something like `stream.pipe.name`), it says the instance is undefined
+    - In this case, use the value as a string: `jest.spyOn(stream, "pipe").mockReturnValue`
+- Challenge 01 impossible to complete 100% code coverage because [testUtil.js](./aulas/aula01/tests/unit/_util/testUtil.js) is not being fully used
+    - Add the following code snippet to the first line of the [testUtil.js](./aulas/aula01/tests/unit/_util/testUtil.js) file: `/* istanbul ignore file */` . This will make jest ignore this file and complete 100%.
+    - Important: this change will only serve to complete this first and/or second challenge, in the last class, we will not need to ignore this file since we will use all the functions
