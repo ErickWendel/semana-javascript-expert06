@@ -41,11 +41,11 @@ Tag this project with a star 🌟
         - [ ] repost on heroku
 ## Source code for classes and solving challenges
 - [Class01](./classes/class01/)
-    - [desafio-resolvido](./aulas/aula01-desafio-resolvido) and [page with 100% code coverage](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula01-desafio-resolvido /coverage/lcov-report/index.html)
+    - [desafio-resolvido](./aulas/aula01-desafio-resolvido) and [page with 100% code coverage](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula01-desafio-resolvido/coverage/lcov-report/index.html)
 - [Class02](./classes/class02/)
-    - [desafio-resolvido](./aulas/aula02-desafio-resolvido) and [page with 100% code coverage](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula02-desafio-resolvido /coverage/lcov-report/index.html)
+    - [desafio-resolvido](./aulas/aula02-desafio-resolvido) and [page with 100% code coverage](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula02-desafio-resolvido/coverage/lcov-report/index.html)
 - [Class03](./classes/class03/)
-    - [desafio-resolvido](./aulas/aula03-desafio-resolvido) and [page with 100% code coverage](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula03-desafio-resolvido /coverage/lcov-report/index.html)
+    - [desafio-resolvido](./aulas/aula03-desafio-resolvido) and [page with 100% code coverage](https://erickwendel.github.io/semana-javascript-expert06/aulas/aula03-desafio-resolvido/coverage/lcov-report/index.html)
 
 ### Credits to the sources I've used on the demos
 
